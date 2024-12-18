@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		     <class name="Krishna.Valid_Valid_swag"/>
+		          <class name="Krishna.Valid_Invalid_Swag"/>
+      <class name="Krishna.Invalid_Valid_Swag"/>
+      <class name="Krishna.InValid_InValid_Swag"/>
+ 
+ 
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
